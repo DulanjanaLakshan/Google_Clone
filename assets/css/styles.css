@@ -92,7 +92,15 @@ body {
     border-radius: 50px;
     border: 1px solid white;
 }
-
+#search>img {
+    width: 25px;
+    top: 13px;
+    position: relative;
+    left: 12px;
+}
+#search>img:nth-child(2) {
+    left: 573px;
+}
 #button_div > div {
     background-color: #535353;
     width: 200px;
@@ -123,4 +131,17 @@ body {
     position: absolute;
     margin: auto;
     top: 80px;
+}
+#lng>h4{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 518px;
+    right: 0;
+    margin: auto;
+}
+#lng>h4>a{
+    left: 5px;
+    position: relative;
 }
