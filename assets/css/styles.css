@@ -143,5 +143,6 @@ body {
 }
 #lng>h4>a{
     left: 5px;
+    text-decoration: none;
     position: relative;
 }
