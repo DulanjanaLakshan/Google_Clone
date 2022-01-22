@@ -1,5 +1,5 @@
 body {
-    background-color: #323232;
+    background-color: #202124;
 }
 
 #sign {
@@ -51,14 +51,16 @@ body {
     top: 5px;
 }
 
-#img_div >a> img {
+#img_div > a > img {
     width: 40px;
 }
-#name_div{
+
+#name_div {
     position: relative;
     height: 345px;
 }
-#name_div>div{
+
+#name_div > div {
     width: 380px;
     bottom: 0;
     position: absolute;
@@ -66,9 +68,59 @@ body {
     right: 0;
     margin: auto;
 }
-#name_h1{
+
+#name_h1 {
     font-size: 115px;
     font-family: 'Outfit', sans-serif;
     color: white;
     margin: 0;
+}
+
+#search_div {
+    position: relative;
+    height: 160px;
+}
+
+#search {
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+#button_div > div {
+    background-color: #535353;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#button_div > div > h4 {
+    color: white;
+    position: relative;
+    margin: 0;
+    top: 11px;
+    left: 40px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#button_div > div:nth-child(1) {
+    width: 180px;
+}
+
+#button_div > div:nth-child(2) {
+    left: 182px;
+    position: absolute;
+    top: 0;
+}
+#button_div{
+    left: 450px;
+    position: absolute;
+    margin: auto;
+    top: 80px;
 }
