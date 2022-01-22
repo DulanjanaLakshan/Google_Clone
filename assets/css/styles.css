@@ -54,3 +54,21 @@ body {
 #img_div >a> img {
     width: 40px;
 }
+#name_div{
+    position: relative;
+    height: 345px;
+}
+#name_div>div{
+    width: 380px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#name_h1{
+    font-size: 115px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin: 0;
+}
